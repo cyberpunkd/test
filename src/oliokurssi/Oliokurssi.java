@@ -16,20 +16,11 @@ public class Oliokurssi {
      */
     @SuppressWarnings("empty-statement")
     public static void main(String[] args) {
+        for (int i = 1, j = 10; i <= 10; i++, j--){
+            System.out.print(i * j " ");
+        }
         
-        int i=0;        
-
-        do{
-        i++;
-        System.out.println(i);
-        } while (i<10);
-        
-        tulo 
-    }
-    
-    public int tulo (int kerroin, int kerrottava){
-          return (kerroin * kerrottava);
-        
+        System.out.println(" loppu");
     }
 
     
